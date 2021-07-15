@@ -35,12 +35,12 @@ gem 'friendly_id', '~> 5.3.0' # NOTE: Do not upgrade to 5.4.0
 ## 数据分页
 gem 'kaminari', '>= 1.2.1'
 ## 文件上传
-gem 'carrierwave'
+gem 'carrierwave', '>= 2.1.0'
 gem 'mini_magick'
 
 # Helper
 ## HTTP 请求
-gem 'http'
+gem 'http', '>= 4.4.1'
 ## 用户认证
 gem 'devise', '~> 4.7.3'
 gem 'devise-i18n', '~> 1.9.2'
@@ -115,7 +115,7 @@ group :development do
   gem 'binding_of_caller'
 
   # 在线查看 Action Mailer 内容
-  gem 'letter_opener', '~> 1.7'
+  gem 'letter_opener', '~> 1.7', '>= 1.7.0'
   gem 'letter_opener_web', '~> 1.3', '>= 1.3.4'
 end
 
